@@ -3,7 +3,7 @@
 var DOMstrings = {
 	inputMessage: '#message',
 	inputBtn: '#submitBtn',
-	outputVal: '.displayMessage',
+	outputVal: '.text-uppercase',
 };
 
 document.querySelector(DOMstrings.inputBtn).addEventListener('click', printMessage);
